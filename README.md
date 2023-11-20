@@ -19,10 +19,10 @@ To run the code, you need to download the dataset from [here](https://aifactory.
 The folder structure should be like this:
 ```
 ├── data                    # Data folder
-│   └── data.csv              # <-- Put the datafiles here
+│   └── data.csv              # Put the datafiles here
 ├── img                     # Images folder
 │   ├── arch.png              # Model Arch. Structure
-│   └── Image.pmg             # Others Images
+│   └── Image.png             # Others Images
 ├── src                     # Source code
 │   ├── data.py               # to load data
 │   ├── layer.py              # DL Layer
