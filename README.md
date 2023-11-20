@@ -19,16 +19,16 @@ To run the code, you need to download the dataset from [here](https://aifactory.
 The folder structure should be like this:
 ```
 ├── data                    # Data folder
-│   └── KEMDy20_v1_1          # <-- Put the datafiles here
+│   └── data.csv              # <-- Put the datafiles here
 ├── img                     # Images folder
-│   ├── arch/..               # Model Arch. Structure
-│   └── Self-Attention..      # Others Images
+│   ├── arch.png              # Model Arch. Structure
+│   └── Image.pmg             # Others Images
 ├── src                     # Source code
 │   ├── data.py               # to load data
-│   ├── layer.py              # attention layer and cross fusion layer
-│   ├── loader.py             # data loader
-│   ├── models.py             # model architecture
-│   └── trainer.py            # trainer for training and validation
+│   ├── layer.py              # DL Layer
+│   ├── model.py              # Model Architecture
+│   └── trainer.py            # Trainer for training and validation
+│   └── utils.py              # Utility Module
 ├── script                  # Script folder
 │   └── exp_shell.sh          # Shell script for Experiment
 ├── requirements.yaml       # Environment setting
